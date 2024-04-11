@@ -1,0 +1,697 @@
+@import url("/assets/styles/fonts.css");
+.section-header{
+    font: awesome;
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope-Regular';
+}
+.section-header .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    overflow-x: hidden;
+}
+.section-header .language{
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+
+}
+.section-header .container .block_1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.section-header .container .block_1 .links{
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+}
+.section-header .container .line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.section-header .container .block_2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.section-header .container .block_2 h3{
+    display: flex;
+    justify-content: space-between;
+}
+.section-monochrome .container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.section-monochrome .container .img{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-monochrome .container .text{
+    display: flex;
+    align-items: center;
+    height: 170px;
+}
+.section-monochrome .container .text h1{
+    font-size: 125px;
+    text-transform: uppercase;
+    margin-right: 30x;
+    font-family: "NeutrelFace";
+    margin-left: 80px;
+    
+}
+.section-monochrome .container .text h4{
+   margin-bottom: 10px;
+   width: 20%;
+   margin-left: 130px;
+   font-family: "Manrope-Medium";
+   
+}
+.section-monochrome-all{
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.section-monochrome-all .container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 7px;
+}
+.section-monochrome-all .container .imeges{
+    display: flex;
+    justify-content: space-between;
+}
+.section-monochrome-all h2{
+    font-family: "NeutrelFace";
+    font-size: 50px;
+}
+.section-monochrome-all .container p{
+    font-size: 20px;
+    font-family: "Manrope-Medium";
+    font-weight: 600;
+}
+.section-lead {
+    background-image: url(/assets/img/6.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover; 
+    margin-bottom: 150px;
+}
+.section-lead .container{
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-lead .container .text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-lead .container .text h2{
+    font-family: "NeutrelFace";
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+    padding-top: 80px;
+    margin-bottom: 0%;
+}
+.section-lead .container .text p{
+    color: white;
+    font-size: 25px;
+    width: 55%;
+    margin-top: 10px;
+    font-family: "Manrope-Medium";
+}
+.section-lead .container a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: "NeutrelFace";
+    margin-top: 15px;
+}
+.section-new-season{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.section-new-season .container{
+    width: 99%;
+    display: flex;
+    justify-content: center;
+}
+.section-new-season .container .grid{
+    display: grid;
+    grid-template-rows: repeat(18, 50px);
+    grid-template-columns: repeat(16, 70px);
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    font-family: "Manrope-Medium";
+    font-weight: 600;
+}
+.section-new-season .container .grid .text1 h2{
+    font-family: "NeutrelFace";
+    font-size: 70px;
+    font-weight: 600;
+}
+.section-new-season .container .grid .text1{
+    grid-column: 1/11;
+}
+.section-new-season .container .grid .text2 h2{
+    font-family: "NeutrelFace";
+    font-size: 70px;
+    font-weight: 600;
+}
+.section-new-season .container .grid .text2{
+    grid-row-start: 2;
+    margin-top: 20px;
+    grid-column: 7/16;
+}
+.section-new-season .container .grid .img1{
+    grid-row-start: 6;
+    grid-column: 1/5;
+    font-size: 20px;
+}
+.section-new-season .container .grid .img2{
+    grid-row-start: 6;
+    grid-column: 6/10;
+    font-size: 20px;
+}
+.section-new-season .container .grid .img3{
+    grid-row-start: 11;
+    grid-column: 6/10;
+    margin-top: 8px;
+    font-size: 20px;
+}
+.section-new-season .container .grid .img4{
+    grid-row-start: 6;
+    grid-column: 11/17;
+    font-size: 20px;
+}
+.section-grin .container .tabs input{
+    display: none;
+}
+.section-grin .container .tabs .perecluch{
+    width: 100%;
+    overflow: hidden;
+}
+.section-grin .container .tabs .perecluch .line{
+    width: 300%;
+    display: flex;
+}
+.section-grin .container .tabs .perecluch .line .text{
+    width: calc(100%/3);
+    transition: 1s;
+}
+#input_1:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translate(0);
+}
+#input_2:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translate(-100%);
+}
+#input_3:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translate(-200%);
+}
+@keyframes slider{
+    0%, 20%{
+        transform: translateX(0);
+    }
+    30%, 70%{
+        transform: translateX(-100%);
+    }
+    80%, 100%{
+        transform: translateX(-200%);
+    }
+}
+
+.section-grin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: 'Manrope-Medium';
+}
+.section-grin .container{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-grin .container .img{
+    width: 50%;
+}
+.section-grin .container .about-product{
+    width: 45%;
+}
+.section-grin .container .about-product .title{
+    display: flex;
+    justify-content: space-between;
+}
+.section-grin .container .about-product .title .rate{
+    display: flex;
+    align-items: baseline;
+}
+.section-grin .container .about-product .title .rate p{
+    margin-left: 5px;
+    font-size: 17px;
+}
+.section-grin .container .about-product .title .name{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.section-grin .container .about-product .information{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Manrope-Medium';
+    font-weight: 650;
+}
+.section-grin .container .about-product .button a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.section-grin .container .about-product .button{
+    margin-bottom: 55px;
+}
+.section-grin .container .tabs .line_1{
+    height: 1px;
+    background-color: rgba(222, 222, 222, 0.63);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 50%;
+}
+.section-grin .container .tabs label{
+    margin-right: 40px;
+    color: rgb(165, 165, 165);
+}
+#input_1:checked ~ #label1,
+#input_2:checked ~ #label2,
+#input_3:checked ~ #label3{
+    color: black;
+}
+.section-grin .container .about-product .count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    font-size: 23px;
+    font-family: "Manrope-Regular";
+    font-weight: 400;
+}
+.section-grin .container .about-product .count input{
+    width: 60%;
+    margin-right: 2px;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: "Manrope-Medium";
+    border: 1px solid rgb(222, 222, 222);
+}
+.section-grin .container .tabs{
+    font-family: "Manrope-Medium";
+    font-weight: 600;
+}
+.section-grin .container .size .title .table{
+    text-decoration: underline 1px;
+}
+.section-grin .container .size .selector select{
+    display: block; 
+    font-size: 15px;
+    border: 1px solid rgb(222, 222, 222);
+    width: 100%;
+    font-family: "Manrope-Medium";
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    position: relative;
+    color: rgb(165, 165, 165);
+}
+.section-advantages{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.section-advantages .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-advantages .container svg{
+    width: 29px;
+    fill: none;
+    stroke: white;
+    stroke-width: 20px;
+}
+.section-advantages .container h4{
+    font-size: 18px;
+    font-family: "NeutrelFace";
+    font-weight: 400;
+}
+.section-advantages .container p{
+    font-size: 18px;
+    font-family: "Manrope-Regular";
+}
+.section-advantages .container .delivery{
+    padding-top: 9px;
+    width: 22%;
+}
+.section-advantages .container .delivery svg{
+    width: 35px;
+}
+.section-advantages .container .safety{
+    width: 23%;
+}
+.section-advantages .container .support{
+    width: 23%;
+    padding-top: 5px;
+}
+.section-advantages .container .discount{
+    width: 23%;
+}
+.section-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.section-about .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-about .container .text{
+    width: 56%;
+}
+.section-about .container .text h1{
+    font-size: 70px;
+    font-family: "NeutrelFace";
+    font-weight: 500;
+}
+.section-about .container .text p{
+    font-size: 20px;
+    font-family: "Manrope-Medium";
+    font-weight: 500;
+}
+.section-subscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 1px;
+    height: 900px;
+}
+.section-subscription .container{
+    width: 90%;
+    color: white;
+}
+.section-subscription .container .grid{
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    grid-template-columns: repeat(14, 70px);
+    grid-column-gap: 15px;
+    grid-row-gap: 5px;
+}
+.section-subscription .container .grid h1{
+    font-family: "NeutrelFace";
+    font-size: 50px;
+    font-weight: 500;
+}
+.section-subscription .container .grid .text_1{
+    grid-column: 1/6;
+}
+.section-subscription .container .grid .text_2{
+    grid-column: 5/14;
+    grid-row: 2/3;
+    margin-top: 15px;
+}
+.section-subscription .container .content .block:nth-child(1){
+    width: 55%;
+    font-size: 17px;
+    font-family: "Manrope-Medium";
+}
+.section-subscription .container .content .block:nth-child(1) p{
+    margin-bottom: 43px;
+}
+
+.section-subscription .container .content{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Manrope-Regular";
+}
+.section-subscription .container .content .block:nth-child(2){
+    width: 40%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.section-subscription .container .content .block:nth-child(2) .input{
+    display: flex;
+    flex-direction: column;
+}
+.section-subscription .container .content .block:nth-child(2) .input input{
+    width: 50%;
+    height: 40px;
+    border: 1px solid rgb(67, 67, 67);
+    background: none;
+    padding-left: 15px;
+    color: white;
+}
+.section-subscription .container .content .block:nth-child(2) .input label{
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.section-subscription .container .content .block:nth-child(2) .Type{
+    margin-top: 30px;
+    margin-bottom: 0%;
+}
+.section-subscription .container .content .block:nth-child(2) .radio{
+    display: flex;
+    align-items: center;
+}
+.section-subscription .container .content .block:nth-child(2) .check{
+    display: flex;
+}
+.section-subscription .container .content .block:nth-child(2) .button a{
+    background-color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+    color: black;
+    font-family: "NeutrelFace";
+}
+.section-subscription .container .content .block:nth-child(2) .button{
+    margin-top: 25px;
+}
+.section-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+    font-family: "Manrope-Regular";
+}
+.section-footer .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.section-footer .container .messengers{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.section-footer .container .messengers svg{
+    width: 20px;
+    fill: white;
+    border: 1px solid white ;
+    padding: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+    display: flex;
+    height: 30px;
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 952px;
+        margin: 0%;
+    }
+    .section-header .container .block_2 {
+        width: 50%;
+    }
+    .section-monochrom .container .text h1 {
+        font-size: 100px;
+        font-weight: 500;
+    }
+    .section-monochrom .container .text h4 {
+        width: 30%;
+    }
+    .section-monochrom .container .img{
+        width: 50%;
+    }
+    .section-monochrom .container .img img:nth-child(1){
+        width: 74%;
+    }
+    .section-monochrom .container .img img:nth-child(2){
+        width: 23%;
+    }
+
+    .section-monochrome-all .container h1{
+        font-size: 35px;
+    }
+    .section-monochrome-all .container .imeges .block img{
+        width: 310px;
+    }
+    
+    .section-new-season .container .grid {
+        grid-template-columns: repeat(15, 60px);
+    }
+    .section-new-season .container .grid .text_1 {
+        grid-column: 1/11;
+    }
+    .section-new-season .container .grid .text_2 {
+        grid-column: 6/15;
+    }
+    .section-new-season .container .grid .text_1 h2 {
+        font-size: 60px;
+    }
+    .section-new-season .container .grid .text_2 h2 {
+        font-size: 60px;
+    }
+    .section-new-season .container .grid img{
+        width: 320px;
+    }
+    .section-new-season .container .grid p{
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .section-new-season .container .grid .img_3 {
+        grid-row-start: 10;
+        margin-top: 22px;
+        grid-column: 5/10;
+        margin-left: 60px;
+    }
+    .section-new-season .container .grid .img_2 {
+        grid-column: 5/10;
+        margin-left: 60px;
+    }
+    .section-new-season .container .grid .img_4 {
+        grid-column: 10/15;
+        margin-left: 50px;
+    }
+
+    .section-grin .container .img {
+        width: 50%;
+    }
+    .section-grin .container .img img{
+        width: 500px;
+        height: 600px;
+        margin-top: 19px;
+    }
+    .section-grin .container .about-product .count {
+        font-size: 19px; 
+    }
+    .section-grin .container .about-product .button a {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+    .section-grin .container .text {
+        width: 50%;
+    }
+
+    .section-subscription .container .grid {
+        grid-column-gap: 5px;
+    }
+    .section-subscription .container .grid h1 {
+        font-size: 55px;
+    }
+    .section-subscription .container .content .block:nth-child(1) img{
+        width: 500px;
+    }
+    .section-subscription .container .content .block:nth-child(2) {
+        width: 40%;
+    }
+    .section-subscription .container .content .block:nth-child(2) .button a {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+    .section-footer .container .messengers {
+        width: 15%;
+    }
+    .section-footer {
+        height: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 380px;
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        width: 440px;
+    }
+}
+
+@media (max-width: 480px){
+    .container{
+        width: 95%;
+    }
+}
+
+@media (max-width: 360px){
+    .container{
+        width: 95%;
+    }
+}
+
+@media (max-width: 280px){
+    .container{
+        width: 95%;
+    }
+}
